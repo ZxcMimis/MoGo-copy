@@ -5,94 +5,159 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MoGo</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="./styles/reset.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" rel="stylesheet" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
     <header class="header">
-        <nav class="header-nav">
-            <a class="header-logo" href="#">MoGo</a>
+        <div class="header-container container">
+            <a class="header-logo" href="./index.html">MoGo</a>
             <ul class="header-list">
-                <li class="header-item"><a href="#">ABOUT</a></li>
-                <li class="header-item"><a href="#">SERVICE</a></li>
-                <li class="header-item"><a href="#">WORK</a></li>
-                <li class="header-item"><a href="#">BLOG</a></li>
-                <li class="header-item"></li><a href="#">CONTACT</a></li>
+                <li class="header-item">
+                    <a class="header-link" href="#">ABOUT</a>
+                </li>
+                <li class="header-item">
+                    <a class="header-link" href="#">SERVICE</a>
+                </li>
+                <li class="header-item">
+                    <a class="header-link" href="#">WORK</a>
+                </li>
+                <li class="header-item">
+                    <a class="header-link" href="#">BLOG</a>
+                </li>
+                <li class="header-item">
+                    <a class="header-link" href="#">CONTACT</a>
+                </li>
             </ul>
-        </nav>
+        </div>
     </header>
     <main>
 
         <section class="hero">
-            <h2 class="hero-subtitle">We work with</h2>
-            <h1 class="hero-title">Amazing Services</h1>
-            <ul class="hero-list">
-                <li class="hero-item">
-                    <img src="./img/times.png" alt="#" class="hero-img">
-                    <h3 class="hero-name">photography</h3>
-                    <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </li>
-                <li class="hero-item">
-                    <img src="./img/status.png" alt="#" class="hero-img">
-                    <h3 class="hero-name">photography</h3>
-                    <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </li>
-                <li class="hero-item">
-                    <img src="./img/computer.png" alt="#" class="hero-img">
-                    <h3 class="hero-name">photography</h3>
-                    <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </li>
-                <li class="hero-item">
-                    <img src="./img/scroll.png" alt="#" class="hero-img">
-                    <h3 class="hero-name">photography</h3>
-                    <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </li>
-                <li class="hero-item">
-                    <img src="./img/house.png" alt="#" class="hero-img">
-                    <h3 class="hero-name">photography</h3>
-                    <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </li>
-                <li class="hero-item">
-                    <img src="./img/all.png" alt="#" class="hero-img">
-                    <h3 class="hero-name">photography</h3>
-                    <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </li>
-            </ul>
+            <div class="container">
+                <h2 class="subtitle hero-subtitle">We work with</h2>
+                <h1 class="title hero-title">Amazing Services</h1>
+
+                <ul class="hero-list">
+                    <li class="hero-item">
+                        <svg class="hero-icon">
+                            <use href="./svg/symbol-defs.svg#icon-clok">  </use>
+                        </svg>
+                        <div class="hero-flex">
+                            <h3 class="hero-name">Photography</h3>
+                            <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor.
+                            </p>
+                        </div>
+                    </li>
+                    
+                    <li class="hero-item">
+                        <svg class="hero-icon">
+                            <use href="./svg/symbol-defs.svg#icon-bar-graph"></use>
+                        </svg>
+                        <div class="hero-flex">
+                            <h3 class="hero-name">Photogrpahy</h3>
+                            <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="hero-item">
+                        <svg class="hero-icon">
+                            <use href="./svg/symbol-defs.svg#icon-display"></use>
+                        </svg>
+                        <div class="hero-flex">
+                            <h3 class="hero-name">Photography</h3>
+                            <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="hero-item">
+                        <svg class="hero-icon">
+                            <use href="./svg/symbol-defs.svg#icon-paper"></use>
+                        </svg>
+                        <div class="hero-flex">
+                            <h3 class="hero-name">Photography</h3>
+                            <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="hero-item">
+                        <svg class="hero-icon">
+                            <use href="./svg/symbol-defs.svg#icon-home"></use>
+                        </svg>
+                        <div class="hero-flex">
+                            <h3 class="hero-name">Photography</h3>
+                            <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor.</p>
+                        </div>
+                    </li>
+                    <li class="hero-item">
+                        <svg class="hero-icon">
+                            <use href="./svg/symbol-defs.svg#icon-digital-marketing"></use>
+                        </svg>
+                        <div class="hero-flex">
+                            <h3 class="hero-name">photography</h3>
+                            <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section class="team">
-            <h2 class="team-subtitle">Meet our team</h2>
-            <h2 class="team-title"></h2>
-            <p class="team-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-            <ul class="team-list">
-                <li class="team-iteam">
-                    <img src="./img/Matthew Dix.webp" alt="#" class="foto">
-                    <h3 class="team-name">Matthew Dix</h3>
-                    <p class="team-description">Graphic Design</p>
-                </li>
-                <li class="team-iteam">
-                    <img src="./img/Christopher Campbell.webp" alt="#" class="foto">
-                    <h3 class="team-name">Christopher Campbell</h3>
-                    <p class="team-description">Branding/UX design</p>
-                </li>
-                <li class="team-iteam">
-                    <img src="./img/Michael Fertig.webp" alt="#" class="foto">
-                    <h3 class="team-name">Michael Fertig </h3>
-                    <p class="team-description">Developer</p>
-                </li>
-            </ul>
+            <div class="container">
+                <h2 class="subtitle team-subtitle">Who we are</h2>
+                <h2 class="title team-title">Meet our team</h2>
+                <p class="team-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo
+                    consequat.</p>
+                <ul class="team-list">
+                    <li class="team-item">
+                        <div class="team-overlay">
+                        <img class="team-foto" src="./img/first-man.webp" alt="first-man">
+                    </div>
+                        <h3 class="team-name">Matthew Dix</h3>
+                        <p class="team-description">Graphic Design</p>
+                    </li>
+                    <li class="team-item">
+                        <div class="team-overlay">
+                        <img class="team-foto" src="./img/second-man.webp" alt="second-man">
+                    </div>
+                        <h3 class="team-name">Christopher Campbell</h3>
+                        <p class="team-description">Branding/UX design</p>
+                    </li>
+                    <li class="team-item">
+                        <div class="team-overlay">
+                        <img class="team-foto" src="./img/third-man.webp" alt="third-man">
+                        </div>
+                        <h3 class="team-name">Michael Fertig</h3>
+                        <p class="team-description">Branding/UX design</p>
+                    </li>
+                </ul>
+            </div>
+
         </section>
     </main>
-    <footer class="footer">
-        <p class="footer-text">&#169; 2016 MoGo free PSD template by Laaqiq</p>
-        <form class="footer-form">
-            <input class="footer-input" placeholder="Your Email..." type="text">
-            <button class="footer-button" type="submit"></button>
-        </form>
+    <footer>
+        <div class="container">
+            <p class="footer-text">&#169; 2023 MoGo free PSD template by <a class="author" href="#">Laaqiq</a></p>
+            <form class="footer-form">
+                <input class="footer-input" type="text" placeholder="Your Email...">
+                <button class="footer-button" type="submit">Subscribe</button>
+            </form>
+        </div>
     </footer>
 </body>
 
